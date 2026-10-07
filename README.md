@@ -1,17 +1,11 @@
 # MEXC × DEX Spread Scanner
 
-Минимальная веб-панель для мониторинга разницы цены MEXC Spot и DEX.
-
-## Запуск
-```bash
-npm install
-npm start
-```
-Открыть `http://localhost:3000`.
+Simple web MVP for monitoring MEXC Spot vs DEX prices.
 
 ## Render
-Build command: `npm install`
-Start command: `npm start`
+- Runtime: Node
+- Build Command: `npm install`
+- Start Command: `npm start`
+- No API keys required for the MVP.
 
-## Важно
-MVP использует публичный MEXC spot ticker и DexScreener search. DEX-пара выбирается автоматически как наиболее ликвидная найденная пара по тикеру. Это мониторинг, а не торговый сигнал: контракт, сеть, ликвидность и исполнение нужно проверять вручную.
+Open the Render service URL after deploy.
